@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFF8BE5B18E27A4900BD704D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF8BE5A18E27A4900BD704D /* Foundation.framework */; };
+		EFF8BE5D18E27A4900BD704D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF8BE5C18E27A4900BD704D /* CoreGraphics.framework */; };
+		EFF8BE5F18E27A4900BD704D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF8BE5E18E27A4900BD704D /* UIKit.framework */; };
+		EFF8BE6518E27A4900BD704D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFF8BE6318E27A4900BD704D /* InfoPlist.strings */; };
+		EFF8BE6718E27A4900BD704D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF8BE6618E27A4900BD704D /* main.m */; };
+		EFF8BE6B18E27A4900BD704D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF8BE6A18E27A4900BD704D /* AppDelegate.m */; };
+		EFF8BE6E18E27A4900BD704D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF8BE6C18E27A4900BD704D /* Main_iPhone.storyboard */; };
+		EFF8BE7118E27A4A00BD704D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF8BE6F18E27A4A00BD704D /* Main_iPad.storyboard */; };
+		EFF8BE7618E27A4A00BD704D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF8BE7518E27A4A00BD704D /* Images.xcassets */; };
+		EFF8BE7D18E27A4A00BD704D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF8BE7C18E27A4A00BD704D /* XCTest.framework */; };
+		EFF8BE7E18E27A4A00BD704D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF8BE5A18E27A4900BD704D /* Foundation.framework */; };
+		EFF8BE7F18E27A4A00BD704D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF8BE5E18E27A4900BD704D /* UIKit.framework */; };
+		EFF8BE8718E27A4A00BD704D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFF8BE8518E27A4A00BD704D /* InfoPlist.strings */; };
+		EFF8BE8918E27A4A00BD704D /* Art_GalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF8BE8818E27A4A00BD704D /* Art_GalleryTests.m */; };
+		EFF8BE9418E27A5600BD704D /* Painting.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF8BE9318E27A5600BD704D /* Painting.m */; };
+		EFF8BE9818E27A5F00BD704D /* ArtGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF8BE9618E27A5F00BD704D /* ArtGalleryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFF8BE8018E27A4A00BD704D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF8BE4F18E27A4900BD704D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF8BE5618E27A4900BD704D;
+			remoteInfo = "Art Gallery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFF8BE5718E27A4900BD704D /* Art Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF8BE5A18E27A4900BD704D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFF8BE5C18E27A4900BD704D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFF8BE5E18E27A4900BD704D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFF8BE6218E27A4900BD704D /* Art Gallery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Art Gallery-Info.plist"; sourceTree = "<group>"; };
+		EFF8BE6418E27A4900BD704D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFF8BE6618E27A4900BD704D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFF8BE6818E27A4900BD704D /* Art Gallery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Art Gallery-Prefix.pch"; sourceTree = "<group>"; };
+		EFF8BE6918E27A4900BD704D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFF8BE6A18E27A4900BD704D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFF8BE6D18E27A4900BD704D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EFF8BE7018E27A4A00BD704D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EFF8BE7518E27A4A00BD704D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFF8BE7B18E27A4A00BD704D /* Art GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Art GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF8BE7C18E27A4A00BD704D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EFF8BE8418E27A4A00BD704D /* Art GalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Art GalleryTests-Info.plist"; sourceTree = "<group>"; };
+		EFF8BE8618E27A4A00BD704D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFF8BE8818E27A4A00BD704D /* Art_GalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Art_GalleryTests.m; sourceTree = "<group>"; };
+		EFF8BE9218E27A5600BD704D /* Painting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Painting.h; sourceTree = "<group>"; };
+		EFF8BE9318E27A5600BD704D /* Painting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Painting.m; sourceTree = "<group>"; };
+		EFF8BE9518E27A5F00BD704D /* ArtGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtGalleryViewController.h; sourceTree = "<group>"; };
+		EFF8BE9618E27A5F00BD704D /* ArtGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtGalleryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF8BE5418E27A4900BD704D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8BE5D18E27A4900BD704D /* CoreGraphics.framework in Frameworks */,
+				EFF8BE5F18E27A4900BD704D /* UIKit.framework in Frameworks */,
+				EFF8BE5B18E27A4900BD704D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8BE7818E27A4A00BD704D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8BE7D18E27A4A00BD704D /* XCTest.framework in Frameworks */,
+				EFF8BE7F18E27A4A00BD704D /* UIKit.framework in Frameworks */,
+				EFF8BE7E18E27A4A00BD704D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFF8BE4E18E27A4900BD704D = {
+			isa = PBXGroup;
+			children = (
+				EFF8BE6018E27A4900BD704D /* Art Gallery */,
+				EFF8BE8218E27A4A00BD704D /* Art GalleryTests */,
+				EFF8BE5918E27A4900BD704D /* Frameworks */,
+				EFF8BE5818E27A4900BD704D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF8BE5818E27A4900BD704D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8BE5718E27A4900BD704D /* Art Gallery.app */,
+				EFF8BE7B18E27A4A00BD704D /* Art GalleryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFF8BE5918E27A4900BD704D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8BE5A18E27A4900BD704D /* Foundation.framework */,
+				EFF8BE5C18E27A4900BD704D /* CoreGraphics.framework */,
+				EFF8BE5E18E27A4900BD704D /* UIKit.framework */,
+				EFF8BE7C18E27A4A00BD704D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFF8BE6018E27A4900BD704D /* Art Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8BE9218E27A5600BD704D /* Painting.h */,
+				EFF8BE9318E27A5600BD704D /* Painting.m */,
+				EFF8BE6918E27A4900BD704D /* AppDelegate.h */,
+				EFF8BE6A18E27A4900BD704D /* AppDelegate.m */,
+				EFF8BE6C18E27A4900BD704D /* Main_iPhone.storyboard */,
+				EFF8BE6F18E27A4A00BD704D /* Main_iPad.storyboard */,
+				EFF8BE9518E27A5F00BD704D /* ArtGalleryViewController.h */,
+				EFF8BE9618E27A5F00BD704D /* ArtGalleryViewController.m */,
+				EFF8BE7518E27A4A00BD704D /* Images.xcassets */,
+				EFF8BE6118E27A4900BD704D /* Supporting Files */,
+			);
+			path = "Art Gallery";
+			sourceTree = "<group>";
+		};
+		EFF8BE6118E27A4900BD704D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8BE6218E27A4900BD704D /* Art Gallery-Info.plist */,
+				EFF8BE6318E27A4900BD704D /* InfoPlist.strings */,
+				EFF8BE6618E27A4900BD704D /* main.m */,
+				EFF8BE6818E27A4900BD704D /* Art Gallery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFF8BE8218E27A4A00BD704D /* Art GalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8BE8818E27A4A00BD704D /* Art_GalleryTests.m */,
+				EFF8BE8318E27A4A00BD704D /* Supporting Files */,
+			);
+			path = "Art GalleryTests";
+			sourceTree = "<group>";
+		};
+		EFF8BE8318E27A4A00BD704D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFF8BE8418E27A4A00BD704D /* Art GalleryTests-Info.plist */,
+				EFF8BE8518E27A4A00BD704D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF8BE5618E27A4900BD704D /* Art Gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF8BE8C18E27A4A00BD704D /* Build configuration list for PBXNativeTarget "Art Gallery" */;
+			buildPhases = (
+				EFF8BE5318E27A4900BD704D /* Sources */,
+				EFF8BE5418E27A4900BD704D /* Frameworks */,
+				EFF8BE5518E27A4900BD704D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Art Gallery";
+			productName = "Art Gallery";
+			productReference = EFF8BE5718E27A4900BD704D /* Art Gallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFF8BE7A18E27A4A00BD704D /* Art GalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF8BE8F18E27A4A00BD704D /* Build configuration list for PBXNativeTarget "Art GalleryTests" */;
+			buildPhases = (
+				EFF8BE7718E27A4A00BD704D /* Sources */,
+				EFF8BE7818E27A4A00BD704D /* Frameworks */,
+				EFF8BE7918E27A4A00BD704D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF8BE8118E27A4A00BD704D /* PBXTargetDependency */,
+			);
+			name = "Art GalleryTests";
+			productName = "Art GalleryTests";
+			productReference = EFF8BE7B18E27A4A00BD704D /* Art GalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF8BE4F18E27A4900BD704D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Code Fellows";
+				TargetAttributes = {
+					EFF8BE5618E27A4900BD704D = {
+						DevelopmentTeam = TX54R8GYX2;
+					};
+					EFF8BE7A18E27A4A00BD704D = {
+						TestTargetID = EFF8BE5618E27A4900BD704D;
+					};
+				};
+			};
+			buildConfigurationList = EFF8BE5218E27A4900BD704D /* Build configuration list for PBXProject "Art Gallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFF8BE4E18E27A4900BD704D;
+			productRefGroup = EFF8BE5818E27A4900BD704D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF8BE5618E27A4900BD704D /* Art Gallery */,
+				EFF8BE7A18E27A4A00BD704D /* Art GalleryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF8BE5518E27A4900BD704D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8BE7118E27A4A00BD704D /* Main_iPad.storyboard in Resources */,
+				EFF8BE7618E27A4A00BD704D /* Images.xcassets in Resources */,
+				EFF8BE6E18E27A4900BD704D /* Main_iPhone.storyboard in Resources */,
+				EFF8BE6518E27A4900BD704D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8BE7918E27A4A00BD704D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8BE8718E27A4A00BD704D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF8BE5318E27A4900BD704D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8BE6B18E27A4900BD704D /* AppDelegate.m in Sources */,
+				EFF8BE9818E27A5F00BD704D /* ArtGalleryViewController.m in Sources */,
+				EFF8BE6718E27A4900BD704D /* main.m in Sources */,
+				EFF8BE9418E27A5600BD704D /* Painting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF8BE7718E27A4A00BD704D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF8BE8918E27A4A00BD704D /* Art_GalleryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFF8BE8118E27A4A00BD704D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF8BE5618E27A4900BD704D /* Art Gallery */;
+			targetProxy = EFF8BE8018E27A4A00BD704D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFF8BE6318E27A4900BD704D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF8BE6418E27A4900BD704D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFF8BE6C18E27A4900BD704D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF8BE6D18E27A4900BD704D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EFF8BE6F18E27A4A00BD704D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF8BE7018E27A4A00BD704D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EFF8BE8518E27A4A00BD704D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFF8BE8618E27A4A00BD704D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFF8BE8A18E27A4A00BD704D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFF8BE8B18E27A4A00BD704D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFF8BE8D18E27A4A00BD704D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Art Gallery/Art Gallery-Prefix.pch";
+				INFOPLIST_FILE = "Art Gallery/Art Gallery-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFF8BE8E18E27A4A00BD704D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Art Gallery/Art Gallery-Prefix.pch";
+				INFOPLIST_FILE = "Art Gallery/Art Gallery-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFF8BE9018E27A4A00BD704D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Art Gallery.app/Art Gallery";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Art Gallery/Art Gallery-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Art GalleryTests/Art GalleryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EFF8BE9118E27A4A00BD704D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Art Gallery.app/Art Gallery";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Art Gallery/Art Gallery-Prefix.pch";
+				INFOPLIST_FILE = "Art GalleryTests/Art GalleryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF8BE5218E27A4900BD704D /* Build configuration list for PBXProject "Art Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF8BE8A18E27A4A00BD704D /* Debug */,
+				EFF8BE8B18E27A4A00BD704D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF8BE8C18E27A4A00BD704D /* Build configuration list for PBXNativeTarget "Art Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF8BE8D18E27A4A00BD704D /* Debug */,
+				EFF8BE8E18E27A4A00BD704D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF8BE8F18E27A4A00BD704D /* Build configuration list for PBXNativeTarget "Art GalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF8BE9018E27A4A00BD704D /* Debug */,
+				EFF8BE9118E27A4A00BD704D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFF8BE4F18E27A4900BD704D /* Project object */;
+}
