@@ -19,6 +19,7 @@
 @property (nonatomic, strong) NSMutableArray *beacons;
 @property (nonatomic, strong) NSArray *paintings;
 @property (nonatomic, strong) CLLocationManager *locationManager;
+@property (nonatomic, strong) CLBeaconRegion *beaconRegion;
 
 @end
 
@@ -35,21 +36,18 @@
     _locationManager = [[CLLocationManager alloc] init];
     _locationManager.delegate = self;
 
+    _beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:ESTIMOTE_PROXIMITY_UUID
+                                                       identifier:@"org.codefellows.artGallery"];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    CLBeaconRegion *region = [[CLBeaconRegion alloc] initWithProximityUUID:ESTIMOTE_PROXIMITY_UUID
-                                                                identifier:@"org.codefellows.artGallery"];
-
-    [_locationManager startRangingBeaconsInRegion:region];    
+    [_locationManager startRangingBeaconsInRegion:_beaconRegion];
 }
 
 - (void)viewDidDisappear:(BOOL)animated
 {
-    CLBeaconRegion *region = [[CLBeaconRegion alloc] initWithProximityUUID:ESTIMOTE_PROXIMITY_UUID
-                                                                identifier:@"org.codefellows.artGallery"];
-    [_locationManager stopRangingBeaconsInRegion:region];
+    [_locationManager stopRangingBeaconsInRegion:_beaconRegion];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(CLBeaconRegion *)region
