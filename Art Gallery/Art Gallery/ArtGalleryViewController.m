@@ -8,6 +8,7 @@
 
 #import "ArtGalleryViewController.h"
 #import "Painting.h"
+
 #define ESTIMOTE_PROXIMITY_UUID [[NSUUID alloc] initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"]
 
 @interface ArtGalleryViewController ()
@@ -41,7 +42,7 @@
     CLBeaconRegion *region = [[CLBeaconRegion alloc] initWithProximityUUID:ESTIMOTE_PROXIMITY_UUID
                                                                 identifier:@"org.codefellows.artGallery"];
 
-    [_locationManager startRangingBeaconsInRegion:region];
+    [_locationManager startRangingBeaconsInRegion:region];    
 }
 
 - (void)viewDidDisappear:(BOOL)animated
@@ -79,7 +80,9 @@
         
         _paintingView.image         = closestPainting.image;
         _paintingInfoTextView.text  = closestPainting.text;
+
     }
+    
 }
 
 @end

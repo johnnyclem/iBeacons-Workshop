@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8CA6E5BE5D0422388034AA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF8BE5718E27A4900BD704D /* Art Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF8BE5A18E27A4900BD704D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EFF8BE5C18E27A4900BD704D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -110,6 +111,7 @@
 				EFF8BE5C18E27A4900BD704D /* CoreGraphics.framework */,
 				EFF8BE5E18E27A4900BD704D /* UIKit.framework */,
 				EFF8BE7C18E27A4A00BD704D /* XCTest.framework */,
+				B8CA6E5BE5D0422388034AA0 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
