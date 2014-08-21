@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:iBeacons Workshop.playground">
+   </FileRef>
+   <FileRef
+      location = "group:Art Gallery/Art Gallery.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Be The Beacon/Be The Beacon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:iBeacons Jukebox/iBeacons Jukebox.xcodeproj">
+   </FileRef>
+</Workspace>
